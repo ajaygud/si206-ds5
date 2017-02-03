@@ -11,7 +11,7 @@ data = f.read()
 # store all urls (start with http:// or https://) in all_url variable
 # The outcome should be similar to this:
 # ["http://abc.com", "http://edf.com"]
-regex = r""
+regex = ""
 all_url = re.findall(regex, data, re.MULTILINE)
 
 # TODO:
